@@ -9,7 +9,7 @@ class FormGenerator
 
     public function __construct()
     {
-        
+        $this->
     }
 
     // creation des geter et seter
