@@ -11,6 +11,46 @@ class FormGenerator
     {
         
     }
+
+    // creation des geter et seter
+public function getNom()
+{
+    return $this->nom;
+}
+public function setNom($newNom)
+{
+    $this->nom = $newNom;
+}
+public function getAdressMail()
+{
+    return $this->adressMail;
+}
+public function setAdressMail($newAdressMail)
+{
+    $this->adressMail = $newAdressMail;
+}
+public function getSujet()
+{
+    return $this->sujet;
+}
+public function setSujet($newSujet)
+{
+    $this->sujet = $newSujet;
+}
+public function getMessage()
+{
+    return $this->message;
+}
+public function setMessage($newMessage)
+{
+    $this->message = $newMessage;
+}
+public function AfficherDetails()
+    {
+        echo ;
+    }
+
+public function AfficherDetails()
 }
 
 
@@ -27,7 +67,7 @@ class FormGenerator implements FormGeneratorInterface{
     }
 
     public function addField(string $name, string $type, string $label, array $attributes = []){
-        
+
     }
 }
 ?>
